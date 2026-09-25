@@ -1,26 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
-    
-    <link rel="stylesheet" href="css/style.css">
+    <title>Xpto - School</title>
+    <link href="css/output.css" rel="stylesheet">
+
 </head>
 <body>
-    <i class="bi bi-mortarboard"></i>
-    <i class="bi bi-house"></i>
-    <i class="bi bi-people"></i>
-    <i class="bi bi-images"></i>
-    <i class="bi bi-newspaper"></i>
-    <i class="bi bi-facebook"></i>
+    <div class="bg-[url(../img/hero-campus.jpg)] bg-cover bg-center p-4">
+        <header class="flex justify-between items-center p-2 text-white">
+            <div class="flex items-center gap-1.5">
+                <div class="bg-yellow-600 px-3 py-3 rounded-xl">
+                    <i data-lucide="graduation-cap" stroke-width="2" class="text-black"></i>
+                </div>
+                <div class="">
+                    <h1 class="font-black text-xl">XPTO</h1>
+                    <h2 class="text-gray-400 text-xs">Complexo escolar Politénico</h2>
+                </div>
+            </div>
 
-    <button class="btn btn-primary btn-escola">
-        Conheça os nossos cursos
-    </button>
+            <div class="flex items-center gap-4 font-bold text-sm">
+                <nav class="flex gap-4">
+                    <a href="" class="group relative py-3">Início
+                        <span
+                            class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 rounded-full bg-yellow-500 transition-transform duration-300 ease-out group-hover:scale-x-100">
+                        </span>
+                    </a>
+                    <a href="" class="group relative py-3">Sobre nós
+                        <span
+                            class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 rounded-full bg-yellow-500 transition-transform duration-300 ease-out group-hover:scale-x-100">
+                        </span>
+                    </a>
+                    <a href="" class="group relative py-3">Curso
+                        <span
+                            class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 rounded-full bg-yellow-500 transition-transform duration-300 ease-out group-hover:scale-x-100">
+                        </span>
+                    </a>
+                    <a href="" class="group relative py-3">Notícia
+                        <span
+                            class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 rounded-full bg-yellow-500 transition-transform duration-300 ease-out group-hover:scale-x-100">
+                        </span>
+                    </a>
+                    <a href="" class="group relative py-3">Galeria
+                        <span
+                            class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 rounded-full bg-yellow-500 transition-transform duration-300 ease-out group-hover:scale-x-100">
+                        </span>
+                    </a>
+                    <a href="" class="group relative py-3">Contactos
+                        <span
+                            class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 rounded-full bg-yellow-500 transition-transform duration-300 ease-out group-hover:scale-x-100">
+                        </span>
+                    </a>
+                </nav>
+                <button class="flex gap-2 bg-blue-700 px-4 py-2 rounded items-center hover:opacity-60 transition-all" >Área Administrativa 
+                    <i data-lucide="move-right" class="w-4"></i></button>
+                <div class="ml-4 hidden">
+                    <i data-lucide="menu" stroke-width="2"></i>
+                </div>
+            </div>
+        </header>
+    
+   
+        <main>
+            <section class="flex flex-col gap-8 px-3 text-white">
+                <div class="border-l-3 border-l-yellow-600 ">
+                    <h3 class="text-sm font-black ml-2">Ensino Médio Técnico . Luanda</h3>
+                </div>
+                <div class="w-140">
+                    <h1 class="text-7xl font-light w-full ">Formando Profissionais para o futuro.</h1>
+                </div>
+                <div>
+                    <p class="text-lg text-gray-300">Educação de qualidade, inovação e preparação para o mercado de <br> trabalho.</p>
+                </div>
+                <div class="flex gap-4 font-medium text-sm ">
+                    <button class="flex gap-2 bg-blue-600 px-3 py-1 rounded items-center hover:bg-blue-900 transition-all hover:cursor-pointer" >
+                        Conheça os nossos cursos
+                    <i data-lucide="move-right" class="w-4"></i></button>
+                    <button class="flex gap-2 bg-yellow-600 px-3 py-1 rounded items-center hover:bg-yellow-700 transition-all hover:cursor-pointer" >
+                        Fale connosco
+                    <i data-lucide="move-right" class="w-4"></i></button>
+                </div>
+            </section>
+        </main>
+        
+    </div>
+    
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <script src="./js/lucide.min.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
