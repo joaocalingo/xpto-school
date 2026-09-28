@@ -1,0 +1,19 @@
+# Dependências
+node_modules/
+
+# Ficheiros privados
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Ficheiros do sistema
+.DS_Store
+Thumbs.db
+
+# Ficheiros temporários
+*.tmp
+*.temp
